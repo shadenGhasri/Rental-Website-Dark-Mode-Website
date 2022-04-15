@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar-white">
+      <a href="index.html">
+        <img src="images/logo-red.png" alt="logo" class="logo" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Popular Places</a></li>
+        <li><a href="#">Travel Outside</a></li>
+        <li><a href="listing.html">Online Packages</a></li>
+      </ul>
+      <a href="#" class="register-btn">Register Now</a>
+      <i class="fas fa-bars"></i>
+    </nav>
+
+    <section class="container">
+      <!-- house details -->
+      <secction class="house-details">
+        <!-- house title -->
+        <section class="house-title">
+          <h1>Wenge House</h1>
+          <section class="row">
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+              <span>245 Reviews</span>
+            </div>
+            <section>
+              <p>Location: san Francisco, California, United States</p>
+            </section>
+          </section>
+        </section>
+        <!-- house gallery -->
+        <section class="gallery">
+          <section class="gallery-img-1">
+            <img src="images/house-1.png" />
+          </section>
+          <section><img src="images/house-2.png" /></section>
+          <section><img src="images/house-3.png" /></section>
+          <section><img src="images/house-4.png" /></section>
+          <section><img src="images/house-5.png" /></section>
+        </section>
+        <section class="small-details">
+          <h2>Entire rental unit hosted by Brandon</h2>
+          <p>2 guest &nbsp; 2 beds &nbsp; 1 bathroom</p>
+          <h4>$ 100 / day</h4>
+        </section>
+        <hr class="line" />
+
+        <!-- form -->
+        <form class="check-form">
+          <section>
+            <label>Check in</label>
+            <input type="text" placeholder="Add date" />
+          </section>
+          <section>
+            <label>Check out</label>
+            <input type="text" placeholder="Add date" />
+          </section>
+          <section class="guest-field">
+            <label>Guest</label>
+            <input type="text" placeholder="2 guest" />
+          </section>
+          <button type="submit">Check Availability</button>
+        </form>
+      </secction>
+
+      <!-- details list -->
+      <ul class="details-list">
+        <li>
+          <i class="fas fa-house"></i>
+          Entire Home
+          <span>You will have to entire flat for you</span>
+        </li>
+        <li>
+          <i class="fas fa-paint-brush"></i>
+          Enhanced Clean
+          <span>This host has committed to staybnb's cleaning process</span>
+        </li>
+        <li>
+          <i class="fas fa-map-marked-alt"></i>
+          Great Location
+          <span>90% of recent guests gave the location a 5 star rating</span>
+        </li>
+        <li>
+          <i class="fas fa-heart"></i>
+          Great Check-in Experience
+          <span
+            >100% of recent guests gave the check-in process a 5 star
+            rating.</span
+          >
+        </li>
+      </ul>
+
+      <hr class="line" />
+
+      <p class="home-desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+        distinctio reiciendis doloremque, ab atque eius eveniet quia animi quod
+        dolore aliquam voluptate nostrum autem non temporibus, commodi in
+        nesciunt laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consectetur, pariatur repellendus velit nobis laudantium possimus.
+      </p>
+      <hr class="line" />
+
+      <!-- Map -->
+      <section class="map">
+        <h3>Location on map</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555120401!2d-122.50764008500157!3d37.75781499644896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sge!4v1649318178478!5m2!1sen!2sge"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <b>San Francisco, California, United States </b>
+        <p>It's like a home away from home.</p>
+      </section>
+
+      <hr class="line" />
+
+      <!-- host -->
+      <section class="host">
+        <img src="images/host.png" />
+        <section>
+          <h2>Histed By Brandon</h2>
+          <p>
+            <span>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </span>
+            &nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response rate 100% &nbsp;
+            &nbsp; Response time: 60 min
+          </p>
+        </section>
+      </section>
+      <a href="#" class="contact-host">Contact host</a>
+      <!-- footer -->
+      <footer>
+        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <hr />
+        <p>Copyright @ 2022, Anahid</p>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
